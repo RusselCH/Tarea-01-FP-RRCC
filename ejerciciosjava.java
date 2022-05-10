@@ -11,7 +11,7 @@ public class ejerciciosjava {
 //definir variables
 double p, r=4, i;
 //datos de entrada 
-Scanner  lt=new Scanner(System.in);
+Scanner lt=new Scanner(System.in);
 System.out.println("ingrese  valor de la intencidad");
 i=lt.nextDouble();
 //proceso

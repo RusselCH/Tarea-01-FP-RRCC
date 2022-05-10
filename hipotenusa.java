@@ -6,7 +6,7 @@ public class hipotenusa {
         //definir variables
         double a,b,c;
         //datos de entrada
-        Scanner lt =new Scanner(System.in); 
+        Scanner lt=new Scanner(System.in); 
 System.out.println("ingrese el lado a:");
 a=lt.nextDouble();
 System.out.println("ingrese el lado b");
