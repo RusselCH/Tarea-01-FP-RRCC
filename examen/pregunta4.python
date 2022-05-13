@@ -1,0 +1,19 @@
+#Definir variables
+	años=float
+	genero=str
+	mensaje=str
+	#Datos de entrada
+	años=float(input("ingrese los años"))
+	print("genero:mujer;varon")
+	genero=str(input("ingrese los tipos de generos"))    
+	#Proceso
+	if años>70:
+	    mensaje=("la vacuna es de tipo c")
+	elif años>16 and años<=69 and genero=="mujer":
+	    mensaje=("la vacuna es de tipo b")
+	elif años>16 and años<=69 and genero=="varon":  
+	    mesaje=("la vacuna es de tipo a") 
+	else:
+	    mesaje=("la vacuna es de tipo a")
+	#Datos de salida
+	print(mensaje)
