@@ -1,6 +1,14 @@
 package subprogramas;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+
 public class LeerTeclado {
+
+     BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
+   
+
     public int print(String mensaje, int valor) {
         return 0;
         
