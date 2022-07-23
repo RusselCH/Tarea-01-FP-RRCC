@@ -89,8 +89,7 @@ public class Matrices {
         imprimirMatriz(matriz);
     }
 
-    // desde aqui comienzan los 20 ejercicios Ingeniero ❤️
-
+   
     public void transformada09() {
         System.out.println("Ingrese dimesion de Matriz:");
         int dimension = cs.nextInt();
